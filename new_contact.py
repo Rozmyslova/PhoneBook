@@ -11,4 +11,5 @@ def get_contact():
     data.append(phone_number)
     description = input('Enter a comment: ')
     data.append(description)
+    print(data)
     return data

@@ -3,8 +3,9 @@ def choice_to_do():
     while not your_choice:
         print("Choose phone book operations:\n\
             1 - reading;\n\
-            2 - adding new contact;\n\
-            3 - exit")
+            2 - import;\n\
+            3 - adding new contact;\n\
+            4 - exit")
         op = input("Enter a operation's number: ")
         your_choice = True
     return op
